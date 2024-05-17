@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" spacing="10.0">
+         <children>
+            <VBox alignment="TOP_CENTER" prefHeight="400.0" prefWidth="300.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" text="Candy">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Label>
+                  <TableView fx:id="candyTableView" prefHeight="371.0" prefWidth="300.0">
+                    <columns>
+                      <TableColumn fx:id="candyNameColumn" editable="false" maxWidth="100.0" minWidth="100.0" prefWidth="100.0" resizable="false" text="Name" />
+                      <TableColumn fx:id="candyQuantityColumn" editable="false" maxWidth="100.0" minWidth="100.0" prefWidth="100.0" resizable="false" text="Quantity" />
+                        <TableColumn fx:id="candyPriceColumn" editable="false" maxWidth="100.0" minWidth="100.0" prefWidth="100.0" resizable="false" text="Price" />
+                    </columns>
+                  </TableView>
+               </children>
+            </VBox>
+            <VBox alignment="TOP_CENTER" prefHeight="400.0" prefWidth="300.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="66.0" text="Order">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Label>
+                  <TableView fx:id="orderTableView" prefHeight="371.0" prefWidth="300.0">
+                     <columns>
+                        <TableColumn fx:id="orderNameColumn" editable="false" maxWidth="100.0" minWidth="100.0" prefWidth="100.0" resizable="false" text="Name" />
+                        <TableColumn fx:id="oderQuantityColumn" editable="false" maxWidth="100.0" minWidth="100.0" prefWidth="100.0" resizable="false" text="Quantity" />
+                        <TableColumn fx:id="orderPriceColumn" editable="false" maxWidth="100.0" minWidth="100.0" prefWidth="100.0" resizable="false" text="Price" />
+                     </columns>
+                  </TableView>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </center>
+   <bottom>
+      <VBox prefHeight="73.0" prefWidth="600.0" spacing="5.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox prefHeight="20.0" prefWidth="600.0">
+               <children>
+                  <Label fx:id="infoLabel" alignment="CENTER" contentDisplay="CENTER" maxHeight="600.0" minWidth="600.0" prefHeight="20.0" prefWidth="600.0" />
+               </children>
+            </HBox>
+            <HBox prefHeight="20.0" prefWidth="600.0">
+               <children>
+                  <Label fx:id="promoLabel" alignment="CENTER" contentDisplay="CENTER" maxHeight="600.0" minWidth="600.0" prefHeight="20.0" prefWidth="600.0" textAlignment="CENTER" textFill="RED">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <VBox alignment="CENTER" maxWidth="300.0" minWidth="300.0" prefWidth="300.0" spacing="5.0">
+                     <children>
+                        <TextField fx:id="quantityTextField" alignment="CENTER" promptText="Quantity">
+                           <VBox.margin>
+                              <Insets left="20.0" right="20.0" />
+                           </VBox.margin>
+                        </TextField>
+                        <Button maxWidth="110.0" minWidth="110.0" mnemonicParsing="false" onAction="#add" prefWidth="110.0" text="Add to Order" />
+                        <Button maxWidth="110.0" minWidth="110.0" mnemonicParsing="false" onAction="#refresh" prefWidth="110.0" text="Refresh Items" />
+                     </children>
+                     <padding>
+                        <Insets bottom="10.0" />
+                     </padding>
+                  </VBox>
+                  <VBox>
+                     <children>
+                        <TextField fx:id="emailTextField" promptText="Email">
+                           <VBox.margin>
+                              <Insets left="20.0" right="20.0" />
+                           </VBox.margin>
+                        </TextField>
+                        <HBox alignment="CENTER" maxWidth="300.0" minWidth="300.0" prefHeight="100.0" prefWidth="300.0" spacing="20.0">
+                           <children>
+                              <Button maxWidth="110.0" minWidth="110.0" mnemonicParsing="false" onAction="#remove" prefWidth="110.0" text="Remove Item" />
+                              <Button maxWidth="110.0" minWidth="110.0" mnemonicParsing="false" onAction="#send" prefWidth="110.0" text="Send order" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </bottom>
+</BorderPane>

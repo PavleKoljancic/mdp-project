@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="469.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView fx:id="candyTV" prefHeight="469.0" prefWidth="369.0">
+        <columns>
+          <TableColumn fx:id="candyName" editable="false" maxWidth="122.0" minWidth="122.0" prefWidth="122.0" resizable="false" text="Name" />
+          <TableColumn fx:id="candyQuantity" editable="false" maxWidth="122.0" minWidth="122.0" prefWidth="122.0" resizable="false" text="Quantity" />
+            <TableColumn fx:id="candyPrice" editable="false" maxWidth="122.0" minWidth="122.0" prefWidth="122.0" resizable="false" text="Price" />
+        </columns>
+      </TableView>
+      <Label fx:id="infoLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="367.0" layoutY="252.0" prefHeight="76.0" prefWidth="234.0" wrapText="true" />
+      <TextField fx:id="nameField" layoutX="404.0" layoutY="48.0" promptText="Name" />
+      <TextField fx:id="quantityField" layoutX="404.0" layoutY="88.0" promptText="Quantity" />
+      <Button layoutX="438.0" layoutY="171.0" mnemonicParsing="false" onAction="#add" text="Add/Update" />
+      <Button layoutX="423.0" layoutY="209.0" mnemonicParsing="false" onAction="#remove" style="-fx-background-color: blue;" text="Remove Selected" />
+      <TextField fx:id="priceField" layoutX="403.0" layoutY="123.0" promptText="Price" />
+   </children>
+</AnchorPane>

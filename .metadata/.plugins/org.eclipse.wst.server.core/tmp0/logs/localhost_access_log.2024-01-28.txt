@@ -1,0 +1,13 @@
+127.0.0.1 - - [28/Jan/2024:23:25:04 +0100] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [28/Jan/2024:23:25:56 +0100] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [28/Jan/2024:23:26:13 +0100] "POST /FactoryAppMain/api/users/login HTTP/1.1" 500 12384
+127.0.0.1 - - [28/Jan/2024:23:27:31 +0100] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [28/Jan/2024:23:27:50 +0100] "POST /FactoryAppMain/api/users/login HTTP/1.1" 500 12384
+127.0.0.1 - - [28/Jan/2024:23:30:02 +0100] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [28/Jan/2024:23:30:15 +0100] "POST /FactoryAppMain/api/users/login HTTP/1.1" 200 88
+127.0.0.1 - - [28/Jan/2024:23:30:16 +0100] "GET /FactoryAppMain/api/candy/XIE9iemtz8aISrrtnT4GD1VH_hh3h0qkBDQmvvDNoHeIJUri4B3FDx5s1G7TGIbHNCEZhiWHV4HYqRGUQlE0TA==/Pavle HTTP/1.1" 200 329
+127.0.0.1 - - [28/Jan/2024:23:31:52 +0100] "PUT /FactoryAppMain/api/users/logout/XIE9iemtz8aISrrtnT4GD1VH_hh3h0qkBDQmvvDNoHeIJUri4B3FDx5s1G7TGIbHNCEZhiWHV4HYqRGUQlE0TA==/Pavle HTTP/1.1" 200 20
+127.0.0.1 - - [28/Jan/2024:23:35:07 +0100] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [28/Jan/2024:23:35:20 +0100] "POST /FactoryAppMain/api/users/login HTTP/1.1" 200 88
+127.0.0.1 - - [28/Jan/2024:23:35:20 +0100] "GET /FactoryAppMain/api/candy/eGs8CRqTSirdRVhzpQBROG3KyWkzIhRvEEx6pzQ_dXBbWF-QHWeMkya9OYJsboT3tapQu_1SL6fEFDuUj6znAA==/Pavle HTTP/1.1" 200 329
+127.0.0.1 - - [28/Jan/2024:23:35:23 +0100] "PUT /FactoryAppMain/api/users/logout/eGs8CRqTSirdRVhzpQBROG3KyWkzIhRvEEx6pzQ_dXBbWF-QHWeMkya9OYJsboT3tapQu_1SL6fEFDuUj6znAA==/Pavle HTTP/1.1" 200 20

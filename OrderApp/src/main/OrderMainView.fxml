@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <TableView fx:id="candyTableView" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+        <columns>
+          <TableColumn fx:id="candyNameColumn" editable="false" maxWidth="200.0" minWidth="200.0" prefWidth="200.0" resizable="false" text="Name" />
+          <TableColumn fx:id="candyPriceColumn" editable="false" maxWidth="200.0" minWidth="200.0" prefWidth="200.0" resizable="false" text="Price" />
+            <TableColumn fx:id="candyQuantityColumn" editable="false" maxWidth="200.0" minWidth="200.0" prefWidth="200.0" resizable="false" text="Quantity" />
+        </columns>
+      </TableView>
+   </center>
+   <top>
+      <VBox prefHeight="72.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="31.0" prefWidth="600.0" text="Orders">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <HBox prefHeight="18.0" prefWidth="600.0">
+               <children>
+                  <Label text="DateTime:" />
+                  <Label fx:id="dateLabel">
+                     <HBox.margin>
+                        <Insets left="5.0" right="5.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets left="5.0" right="5.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="19.0" prefWidth="600.0">
+               <children>
+                  <Label text="Email:">
+                     <HBox.margin>
+                        <Insets left="5.0" right="5.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label fx:id="emailLabel">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="5.0" right="5.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </top>
+   <bottom>
+      <VBox alignment="CENTER" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="5.0" top="5.0" />
+         </BorderPane.margin>
+         <children>
+            <Label fx:id="infoLabel" alignment="CENTER" contentDisplay="CENTER" />
+            <HBox alignment="CENTER" spacing="40.0">
+               <children>
+                  <Button fx:id="rejectButton" alignment="CENTER" contentDisplay="CENTER" maxWidth="80.0" minWidth="80.0" mnemonicParsing="false" onAction="#reject" prefWidth="80.0" text="Reject" />
+                  <Button fx:id="accepteButton" alignment="CENTER" contentDisplay="CENTER" maxWidth="80.0" minWidth="80.0" mnemonicParsing="false" onAction="#accepte" prefWidth="80.0" text="Accepte" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </bottom>
+</BorderPane>

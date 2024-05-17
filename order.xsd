@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+  <xs:element name="candyOrder">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="email" type="xs:string" minOccurs="1"  maxOccurs="1"/>
+        <xs:element name="orderItems" minOccurs="1"  maxOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="item" maxOccurs="unbounded" minOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="name" type="xs:string"/>
+                    <xs:element name="price" type="xs:decimal"/>
+                    <xs:element name="quantity" type="xs:decimal"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="timestamp" type="xs:dateTime" minOccurs="1"  maxOccurs="1" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

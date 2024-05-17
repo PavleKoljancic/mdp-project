@@ -1,0 +1,5 @@
+Ordered by:fonovi3853@giratex.com
+Accapted:false
+Timestamp:Sun Jan 28 21:46:23 CET 2024
+Products:
+Name=Twingo, Price:1.5, Quantity=1.0

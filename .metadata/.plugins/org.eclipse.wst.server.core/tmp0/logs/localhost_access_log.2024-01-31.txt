@@ -1,0 +1,14 @@
+127.0.0.1 - - [31/Jan/2024:08:23:39 +0100] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [31/Jan/2024:08:24:09 +0100] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [31/Jan/2024:08:24:22 +0100] "POST /FactoryAppMain/api/users/login HTTP/1.1" 200 88
+127.0.0.1 - - [31/Jan/2024:08:24:22 +0100] "GET /FactoryAppMain/api/candy/HZRlXZhoAHWm8JJ4pLm2ONOkXUkjqQtjhpjgen0ndi4Rq8n8gWMkNYsPxmoYM3uQdvF1h-v3RVYOgrybnI8FWQ==/Pavle HTTP/1.1" 200 329
+127.0.0.1 - - [31/Jan/2024:08:25:44 +0100] "PUT /FactoryAppMain/api/users/logout/HZRlXZhoAHWm8JJ4pLm2ONOkXUkjqQtjhpjgen0ndi4Rq8n8gWMkNYsPxmoYM3uQdvF1h-v3RVYOgrybnI8FWQ==/Pavle HTTP/1.1" 200 20
+127.0.0.1 - - [31/Jan/2024:08:28:00 +0100] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [31/Jan/2024:08:31:17 +0100] "POST /FactoryAppMain/api/users/register HTTP/1.1" 201 15
+127.0.0.1 - - [31/Jan/2024:08:31:32 +0100] "POST /FactoryAppMain/api/users/login HTTP/1.1" 401 22
+127.0.0.1 - - [31/Jan/2024:08:31:44 +0100] "POST /FactoryAppMain/api/users/login HTTP/1.1" 200 88
+127.0.0.1 - - [31/Jan/2024:08:31:44 +0100] "GET /FactoryAppMain/api/candy/2uZRifeYplaDn7zC9Tpu_OWyyT43GNFpoEaszdoMe4xnS9UXsU7K3fo_FfdzmNTuFR_RaS-uSOHBoFiqA0L2_A==/Nikola HTTP/1.1" 200 329
+127.0.0.1 - - [31/Jan/2024:08:37:09 +0100] "PUT /FactoryAppMain/api/users/logout/2uZRifeYplaDn7zC9Tpu_OWyyT43GNFpoEaszdoMe4xnS9UXsU7K3fo_FfdzmNTuFR_RaS-uSOHBoFiqA0L2_A==/Nikola HTTP/1.1" 200 20
+0:0:0:0:0:0:0:1 - - [31/Jan/2024:08:41:11 +0100] "POST /FactoryAppMain/api/users/login HTTP/1.1" 200 88
+0:0:0:0:0:0:0:1 - - [31/Jan/2024:08:41:44 +0100] "GET /FactoryAppMain/api/candy/rzhLw-B9eU1eR3viCPniMv5_Y8FPSKvlBbNtijYQYayt1hgTnrhdixeaCHPGxEHzx7BjgVrozxNvKMgaVxfflw==/simo.pajic HTTP/1.1" 403 649
+0:0:0:0:0:0:0:1 - - [31/Jan/2024:08:42:39 +0100] "GET /FactoryAppMain/api/candy/rzhLw-B9eU1eR3viCPniMv5_Y8FPSKvlBbNtijYQYayt1hgTnrhdixeaCHPGxEHzx7BjgVrozxNvKMgaVxfflw==/pajo.pajic HTTP/1.1" 200 329

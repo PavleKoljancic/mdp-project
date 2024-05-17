@@ -1,0 +1,5 @@
+Ordered by:fonovi3853@giratex.com
+Accapted:true
+Timestamp:Wed Jan 31 08:25:07 CET 2024
+Products:
+Name=Mars, Price:1.5, Quantity=1.0

@@ -1,0 +1,5 @@
+Ordered by:fonovi3853@giratex.com
+Accapted:false
+Timestamp:Sun Jan 28 20:36:23 CET 2024
+Products:
+Name=MilkyWay, Price:1.2, Quantity=12.0

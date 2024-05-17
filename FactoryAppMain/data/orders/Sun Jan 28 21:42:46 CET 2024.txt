@@ -1,0 +1,11 @@
+Ordered by:fonovi3853@giratex.com
+Accapted:true
+Timestamp:Sun Jan 28 21:42:46 CET 2024
+Products:
+Name=Mars, Price:1.5, Quantity=50.0
+Name=MilkyWay, Price:1.5, Quantity=50.0
+Name=Twix, Price:1.2, Quantity=50.0
+Name=Twingo, Price:1.5, Quantity=50.0
+Name=Raffelo, Price:1.5, Quantity=50.0
+Name=M&Ms, Price:1.5, Quantity=50.0
+Name=Snickers, Price:1.5, Quantity=50.0

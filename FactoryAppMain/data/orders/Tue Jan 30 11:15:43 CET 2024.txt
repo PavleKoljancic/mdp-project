@@ -1,0 +1,5 @@
+Ordered by:forgotenidk@gmail.com
+Accapted:false
+Timestamp:Tue Jan 30 11:15:43 CET 2024
+Products:
+Name=MilkyWay, Price:1.5, Quantity=12.0

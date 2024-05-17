@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ShowViewDialog">
+		<item key="DIALOG_X_ORIGIN" value="789"/>
+		<item key="DIALOG_Y_ORIGIN" value="219"/>
+		<item key="DIALOG_WIDTH" value="342"/>
+		<item key="DIALOG_HEIGHT" value="426"/>
+		<item key="DIALOG_FONT_NAME" value="1|Noto Sans|10.0|0|GTK|1|"/>
+		<item key="ShowViewDialog.STORE_SELECTED_VIEW_ID" value="org.eclipse.ui.console.ConsoleView"/>
+		<list key="ShowViewDialog.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="General"/>
+			<item value="Debug"/>
+			<item value="Git"/>
+			<item value="Help"/>
+			<item value="Java"/>
+			<item value="JavaServer Faces"/>
+			<item value="Language Servers"/>
+			<item value="XML"/>
+			<item value="Xtend"/>
+			<item value="Xtext"/>
+			<item value="Other"/>
+		</list>
+	</section>
+</section>

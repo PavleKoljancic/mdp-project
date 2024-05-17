@@ -1,0 +1,8 @@
+Ordered by:fonovi3853@giratex.com
+Accapted:false
+Timestamp:Sun Jan 28 20:51:37 CET 2024
+Products:
+Name=MilkyWay, Price:1.2, Quantity=12.0
+Name=Rafelo, Price:2.0, Quantity=12.0
+Name=Twix, Price:2.0, Quantity=12.0
+Name=Snickers, Price:3.0, Quantity=12.0

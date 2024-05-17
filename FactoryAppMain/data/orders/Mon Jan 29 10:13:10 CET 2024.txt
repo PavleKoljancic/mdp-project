@@ -1,0 +1,6 @@
+Ordered by:fonovi3853@giratex.com
+Accapted:true
+Timestamp:Mon Jan 29 10:13:10 CET 2024
+Products:
+Name=Twix, Price:1.2, Quantity=150.0
+Name=Twingo, Price:1.5, Quantity=150.0

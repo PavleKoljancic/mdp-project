@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="820.0" prefWidth="800.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+  <tabs>
+      <Tab fx:id="usersTab" text="Users" />
+      <Tab fx:id="factroyUsersTab" text="Factory Users" />
+      <Tab fx:id="candyTab" text="Candy" />
+    <Tab fx:id="ingredientsTab" text="Ingredients" />
+    <Tab fx:id="distributorsTab" text="Distributors" />
+  </tabs>
+</TabPane>

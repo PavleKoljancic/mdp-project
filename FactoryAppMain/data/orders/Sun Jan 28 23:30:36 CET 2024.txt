@@ -1,0 +1,7 @@
+Ordered by:fonovi3853@giratex.com
+Accapted:false
+Timestamp:Sun Jan 28 23:30:36 CET 2024
+Products:
+Name=Mars, Price:1.5, Quantity=12412.0
+Name=MilkyWay, Price:1.5, Quantity=12412.0
+Name=Raffelo, Price:1.5, Quantity=12412.0

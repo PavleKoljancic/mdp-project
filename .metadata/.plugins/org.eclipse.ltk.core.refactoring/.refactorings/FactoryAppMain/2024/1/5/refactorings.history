@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;FactoryUser.java&apos; to &apos;OrderApp/src/model&apos;&#x0A;- Original project: &apos;FactoryAppMain&apos;&#x0A;- Destination element: &apos;OrderApp/src/model&apos;&#x0A;- Original element: &apos;model.FactoryUser.java&apos;" description="Copy compilation unit" destination="=OrderApp/src&lt;model" element1="/src\/main\/java&lt;model{FactoryUser.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1706444434732" units="1" version="1.0"/>
+</session>
